@@ -1,0 +1,21 @@
+INSTRUCCION GENERAL: {
+    Se elaborará un panel FOTOGRÁFICO de un proyecto, cada imagen tendra debajo, la actividad, el lugar, la fecha, y el coemntario, este es el más importante, se elaborará en orden temporal, por lo caul el nombre de cada imagen, ya contiene ese dato, tanto el lugar, y una descripcion, del cual el agente ncesita anlizar, y de manera coherente agregar y corregir, el documeto se hará´en latext, para lo cual y es existente el
+    archivo "panel.tex" ahí se elaborará el panel fotográfico, ademas se usaran como encabezados superiores, las imágenes "logo_inviertepe.png" a la derecha, y a la izquierda la imagen "logo_muni.png", es necesario mantener un estilo formala minimalista estilo APA   
+    en la parte central del encabezado (para todas las hojas) ira el nombre del proyecto "“CREACIÓN DE LOS SERVICIOS OPERATIVOS O MISIONALES INSTITUCIONALES EN LA MUNICIPALIDAD DEL CENTRO POBLADO DE CCASA DEL DISTRITO DE CHALLHUAHUACHO, PROVINCIA DE COTABAMBAS, DEPARTAMENTO DE APURÍMAC”, teien que lerr to el archivo "datos.txt" para tener un mehjor alcance a los requerimientos,
+}
+DATOS {
+   NOMBRE DEL PROYECTO: "CREACIÓN DE LOS SERVICIOS OPERATIVOS O MISIONALES INSTITUCIONALES EN LA MUNICIPALIDAD DEL CENTRO POBLADO DE CCASA DEL DISTRITO DE CHALLHUAHUACHO, PROVINCIA DE COTABAMBAS, DEPARTAMENTO DE APURÍMAC"
+   DATOS A CONTENER CADA IMAGEN: actividad: ejmplo("REUNION CON LA JUNTA DIRECTIVA"), LUGAR: ejm("EN LA OFICINA DE UNIDAD FORMULADORA DE LA MDCH"); FECHA: ejm("23/10/2025"), COMENTARIO: ejm("SE SOSTUVO UNA REUNIÓN CON LA JUNTA DIRECTIVA DE LA COMUNIDAD PARA ABORDAR LOS DOCUMENTOS QUE REQUIEREN CUMPLIMIENTO, EN LA QUE LA JUNTA ASUMIÓ EL COMPROMISO DE CUMPLIRLOS.")
+}
+
+INSTRUCCIONES {
+    direccion de las imághenes: (carpeta "IMAGENES"), o ruta global ("C:\Users\USER\OneDrive\Desktop\DIGITALIZACION\CCASSA\ARCHIVOS_PANEL FOTOGRÁFICO\IMAGENES")
+    formato de nombre: Cada imagen tiene como nombre una breve descripcion a mejorar, el formato de los primeros numeros es ("(dia)_(mes)_(hora)_(minutos)_(descripcion de la imagen a mejorar segun el contexto)")
+
+}
+POSDATA: "es necesario que que las imágenes sean descritas lo mejor posible, en coherencia al proyecto, y en orden cronológico, del mas antiguo al mas nuevo, en el archivo final "panel.tex" es necesario, que compile sin errores, evitar cometer errores de sintaxis 
+evita cometer errores de tamaño, las imagenes son los protagonistas, popr lo caul cada imagen con lo mencianado, debe tener un tamaño considerable. se deve organizar de tañl manera, para evitar desborde de texto , ya sea en cuadros
+
+
+EL AÑO ES 2026, para todas las imagenes, solo se utilizara una imagen por cuadro, debe ser redacatado en tercera persona, en tono administrativo, pero entendible, intenta expandir los "comentarios, a una cantidad aceptable, pero no exagerada" 
+EL lugar : COMUNIDAD CAMPESINA DE CCASA , se debe analizar las imagenes, no solo los nombres
