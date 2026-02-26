@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772072337.237 "c:/Users/USER/OneDrive/Desktop/DIGITALIZACION/CCASSA/ARCHIVOS_PANEL FOTOGRÁFICO/panel.tex" "panel.pdf" "panel" 1772072344.04231 0
-  "%OUTDIR%/panel.aux" 1772072343 195 656d804b9b18c555985139ad7644f261 "pdflatex"
+["pdflatex"] 1772074048.82908 "c:/Users/USER/OneDrive/Desktop/DIGITALIZACION/CCASSA/ARCHIVOS_PANEL FOTOGRÁFICO/panel.tex" "panel.pdf" "panel" 1772074055.10598 0
+  "%OUTDIR%/panel.aux" 1772074054 195 656d804b9b18c555985139ad7644f261 "pdflatex"
   "C:/Program Files/MiKTeX/tex/latex/listings/lstpatch.sty" 1741168182 353 9024412f43e92cd5b21fe9ded82d0610 ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772069357 338208 012d198c3b15f5862bb38172a30f03d1 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767102962 24224815 a3539c966ff461e53e6aa6efca746119 ""
@@ -204,11 +204,12 @@
   "IMAGENES/9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_agua_habitante_que_sabe_leer_idrigente_completando_encuesta.jpg" 1772051023 462595 978baca97167fd9260c79ca5c2fc2bd7 ""
   "IMAGENES/9_2_ENCUESTA.jpg" 1772050808 568935 6e90d5ea3f8b05b7735ccaeedfd984d0 ""
   "IMAGENES/oficina_de_unidad_formuladora_cordinacion_con_los_dirigentes_del_consejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg" 1772052652 143746 493160dc650e0939a1ee0a69a080062d ""
-  "c:/Users/USER/OneDrive/Desktop/DIGITALIZACION/CCASSA/ARCHIVOS_PANEL FOTOGRÁFICO/panel.tex" 1772072335 26110 5437e9d0c87fea67c03bb07e0a16de13 ""
+  "c:/Users/USER/OneDrive/Desktop/DIGITALIZACION/CCASSA/ARCHIVOS_PANEL FOTOGRÁFICO/panel.tex" 1772074047 26431 043b2519b5b00a5c1a386be3fd80f83d ""
   "inferior.png" 1772072094 26814 2993bf79a59a38bfea5704a87bbc3e6e ""
   "logo_inviertepe.png" 1772056767 10878 6a62193a56c4858a6c76b4126f4738de ""
   "logo_muni.png" 1772056748 18922 01a3ef9fb62971da99abc534df45e695 ""
-  "panel.tex" 1772072335 26110 5437e9d0c87fea67c03bb07e0a16de13 ""
+  "panel.tex" 1772074047 26431 043b2519b5b00a5c1a386be3fd80f83d ""
+  "superior.png" 1772073718 212412 e407b3ffcb834cece7a4c0cd209344a7 ""
   (generated)
   "%OUTDIR%/panel.aux"
   "%OUTDIR%/panel.log"

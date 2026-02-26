@@ -96,8 +96,16 @@
 % =====================================================================
 \begin{document}
 
-% --- Imagen de fondo inferior en todas las páginas ---
+% --- Imagenes de fondo (superior e inferior) en todas las p\'{a}ginas ---
 \AddToShipoutPictureBG{%
+    % Fondo superior: raisebox baja la imagen su propia altura para que
+    % el borde superior quede alineado con el borde superior del papel
+    \AtPageUpperLeft{%
+        \raisebox{-\totalheight}{%
+            \includegraphics[width=\paperwidth]{superior.png}%
+        }%
+    }%
+    % Fondo inferior
     \AtPageLowerLeft{%
         \includegraphics[width=\paperwidth]{inferior.png}%
     }%
