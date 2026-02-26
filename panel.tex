@@ -1,90 +1,457 @@
-\documentclass[12pt,a4paper]{article}
+﻿\documentclass[12pt,a4paper]{article}
 
-% Paquetes necesarios
+% =====================================================================
+%  PANEL FOTOGRAFICO
+%  Proyecto: CREACION DE LOS SERVICIOS OPERATIVOS O MISIONALES
+%  INSTITUCIONALES EN LA MUNICIPALIDAD DEL CENTRO POBLADO DE CCASA
+% =====================================================================
+
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
 \usepackage{graphicx}
 \usepackage{geometry}
-\usepackage{float}
-\usepackage{caption}
-\usepackage{subcaption}
 \usepackage{fancyhdr}
+\usepackage[most]{tcolorbox}
 \usepackage{xcolor}
-\usepackage{tcolorbox}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{eso-pic}
 
-% Configuración de márgenes
+% --- Margenes ---
 \geometry{
     a4paper,
-    left=2.5cm,
-    right=2.5cm,
-    top=3cm,
-    bottom=3cm
+    left=2cm,
+    right=2cm,
+    top=4.2cm,
+    bottom=2.5cm,
+    headheight=3cm,
+    headsep=0.5cm
 }
 
-% Configuración de encabezado y pie de página
+% --- Ruta de imagenes ---
+\graphicspath{{./}{IMAGENES/}}
+
+% --- Encabezado ---
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{Panel Fotográfico}
-\rhead{\today}
-\cfoot{\thepage}
-
-% Comando personalizado para insertar imagen con información
-\newcommand{\panelfoto}[4]{
-    \begin{tcolorbox}[colback=gray!5, colframe=gray!40, width=\textwidth, arc=3mm]
-        \begin{figure}[H]
+\renewcommand{\headrulewidth}{0.5pt}
+% Todo el encabezado en una sola celda centrada para evitar desborde
+\fancyhead[C]{%
+    \makebox[\textwidth][c]{%
+        \includegraphics[width=2.5cm,height=2.1cm,keepaspectratio]{logo_muni.png}%
+        \hfill
+        \parbox[c]{8.8cm}{%
             \centering
-            \includegraphics[width=0.8\textwidth, height=8cm, keepaspectratio]{#1}
-        \end{figure}
-        \vspace{-0.5cm}
-        \begin{center}
-            \textbf{Actividad:} #2 \\[0.3cm]
-            \textbf{Fecha:} #3 \\[0.3cm]
-            \textbf{Comentario:} #4
-        \end{center}
-    \end{tcolorbox}
-    \vspace{0.5cm}
+            \fontsize{5.5}{6.8}\selectfont\textbf{%
+            CREACI\'{O}N DE LOS SERVICIOS OPERATIVOS O MISIONALES
+            INSTITUCIONALES EN LA MUNICIPALIDAD DEL CENTRO POBLADO
+            DE CCASA DEL DISTRITO DE CHALLHUAHUACHO, PROVINCIA DE
+            COTABAMBAS, DEPARTAMENTO DE APUR\'{I}MAC%
+            }%
+        }%
+        \hfill
+        \includegraphics[width=2.5cm,height=2.1cm,keepaspectratio]{logo_inviertepe.png}%
+    }%
+}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\footrulewidth}{0pt}
+
+% =====================================================================
+%  COMANDO PRINCIPAL: \panelfoto{archivo}{actividad}{lugar}{fecha}{comentario}
+%  Estructura: tcolorbox exterior (imagen) con tcolorbox interior gris (datos)
+% =====================================================================
+\newcommand{\panelfoto}[5]{%
+    \needspace{12cm}%
+    \begin{tcolorbox}[
+        colback=white,
+        colframe=black!30,
+        boxrule=0.5pt,
+        arc=2mm,
+        left=5pt, right=5pt, top=5pt, bottom=5pt
+    ]
+        \centering
+        \includegraphics[width=\linewidth, height=12cm, keepaspectratio]{#1}\par
+        \vspace{5pt}%
+        % Cuadro interior gris para los datos de la imagen
+        \begin{tcolorbox}[
+            colback=gray!9,
+            colframe=gray!40,
+            boxrule=0.4pt,
+            arc=1.5mm,
+            left=7pt, right=7pt, top=6pt, bottom=6pt
+        ]
+            {\fontsize{9}{11}\selectfont
+            \noindent\textbf{ACTIVIDAD:}~#2\par\vspace{2pt}
+            \noindent\textbf{LUGAR:}~#3\par\vspace{2pt}
+            \noindent\textbf{FECHA:}~#4\par\vspace{5pt}
+            \noindent\textbf{Comentario:}~\RaggedRight #5\par}%
+        \end{tcolorbox}%
+    \end{tcolorbox}%
+    \clearpage
 }
 
-% Título del documento
-\title{\Huge\textbf{Panel Fotográfico} \\ \Large Documentación de Actividades}
-\author{JOSETRA44}
-\date{\today}
-
+% =====================================================================
 \begin{document}
 
-\maketitle
-\thispagestyle{empty}
-\newpage
+% --- Imagen de fondo inferior en todas las páginas ---
+\AddToShipoutPictureBG{%
+    \AtPageLowerLeft{%
+        \includegraphics[width=\paperwidth]{inferior.png}%
+    }%
+}
 
-\section*{Registro Fotográfico de Actividades}
+% ===========================  PORTADA  ==============================
+\begin{titlepage}
+    \thispagestyle{fancy}
+    \vspace*{3cm}
+    \begin{center}
+        {\fontsize{10}{12}\selectfont\textbf{PROYECTO DE INVERSI\'{O}N P\'{U}BLICA}\par}
+        \vspace{0.6cm}
+        \textcolor{black!30}{\rule{0.6\textwidth}{0.5pt}}\par
+        \vspace{0.8cm}
+        {\fontsize{22}{26}\selectfont\bfseries PANEL FOTOGR\'{A}FICO\par}
+        \vspace{0.4cm}
+        {\fontsize{12}{14}\selectfont Registro de Actividades de Formulaci\'{o}n\par}
+        \vspace{1.2cm}
+        \textcolor{black!30}{\rule{0.6\textwidth}{0.5pt}}\par
+        \vspace{1.8cm}
+        {\fontsize{9}{11}\selectfont\itshape
+        ``CREACI\'{O}N DE LOS SERVICIOS OPERATIVOS O MISIONALES
+        INSTITUCIONALES EN LA MUNICIPALIDAD DEL CENTRO POBLADO DE CCASA
+        DEL DISTRITO DE CHALLHUAHUACHO, PROVINCIA DE COTABAMBAS,
+        DEPARTAMENTO DE APUR\'{I}MAC''\par}
+        \vspace{1.8cm}
+        {\fontsize{10.5}{13}\selectfont
+        \textbf{Comunidad Campesina de Ccasa}\par
+        Distrito de Challhuahuacho\,---\,Provincia de Cotabambas\par
+        Departamento de Apur\'{i}mac\par}
+        \vspace{1cm}
+        {\fontsize{10}{12}\selectfont Enero\,---\,Febrero~2026\par}
+    \end{center}
+\end{titlepage}
 
-% Ejemplo de uso de la plantilla
-% Reemplaza los parámetros con tus propios valores:
-% \panelfoto{ruta/imagen.jpg}{Nombre de la actividad}{DD/MM/AAAA}{Descripción o comentario}
+% =====================================================================
+%                     REGISTRO FOTOGRAFICO
+% =====================================================================
 
-\panelfoto{ejemplo1.jpg}{Actividad de ejemplo 1}{26/02/2026}{Este es un comentario de ejemplo para la primera imagen. Aquí se describe lo observado o realizado en la actividad.}
+% FOTO 1 | 30/01/2026 - 10:44 hrs.
+\panelfoto%
+    {30_1_10_44_en_la_cancha_sintetica_de_la_comunidad_de_esta_al_no_contar_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra_improvisado.jpg}%
+    {Reuni\'{o}n General en Espacio Improvisado de la Comunidad Campesina de Ccasa}%
+    {Cancha Sint\'{e}tica --- Comunidad Campesina de Ccasa, Challhuahuacho}%
+    {30/01/2026 --- 10:44 hrs.}%
+    {Ante la carencia de un local comunal exclusivo para reuniones, la Comunidad Campesina de
+     Ccasa habilit\'{o} de manera provisional la cancha sint\'{e}tica como espacio de encuentro.
+     En dicho lugar se desarroll\'{o} la reuni\'{o}n convocada en el marco del proceso de
+     formulaci\'{o}n del proyecto, cont\'{a}ndose con la participaci\'{o}n activa de dirigentes
+     y comuneros, quienes asumieron compromisos colectivos vinculados al avance de la iniciativa
+     de inversi\'{o}n p\'{u}blica.}%
 
-\panelfoto{ejemplo2.jpg}{Actividad de ejemplo 2}{25/02/2026}{Segundo comentario de ejemplo. Se pueden agregar detalles relevantes sobre el contexto de la fotografía.}
+% FOTO 2 | 03/02/2026 - 11:29 hrs.
+\panelfoto%
+    {3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_presidente_de_la_comunidad_con_el_economista_alarcon_cabrera_alex.jpg}%
+    {Coordinaci\'{o}n con el Presidente de la Comunidad --- Unidad Formuladora}%
+    {Oficina de Unidad Formuladora --- Municipalidad Distrital de Challhuahuacho}%
+    {03/02/2026 --- 11:29 hrs.}%
+    {En las instalaciones de la Unidad Formuladora se llev\'{o} a cabo una reuni\'{o}n de
+     coordinaci\'{o}n con el presidente de la Comunidad Campesina de Ccasa y el economista
+     Alex Alarc\'{o}n Cabrera. Durante la sesi\'{o}n se revisaron los avances del proceso de
+     formulaci\'{o}n del proyecto, se establecieron compromisos para la entrega oportuna de
+     documentos requeridos por el equipo t\'{e}cnico y se verificaron los aspectos sociales
+     necesarios para la viabilidad del expediente.}%
 
-\panelfoto{ejemplo3.jpg}{Actividad de ejemplo 3}{24/02/2026}{Tercer comentario. Esta plantilla permite mantener un formato uniforme y profesional en todo el documento.}
+% FOTO 3 | 03/02/2026 - 11:29 hrs. (segunda toma)
+\panelfoto%
+    {3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_presidente_de_la_comunidad_de_ccasa_Wilfredo_asto_con_el_economista_alarcon_cabrera_alex.jpg}%
+    {Coordinaci\'{o}n con el Presidente Wilfredo Asto --- Unidad Formuladora}%
+    {Oficina de Unidad Formuladora --- Municipalidad Distrital de Challhuahuacho}%
+    {03/02/2026 --- 11:29 hrs.}%
+    {Segunda toma del encuentro sostenido entre el presidente de la Comunidad Campesina de Ccasa,
+     se\~{n}or Wilfredo Asto, y el economista Alex Alarc\'{o}n Cabrera, en las instalaciones de
+     la Unidad Formuladora. La sesi\'{o}n tuvo como prop\'{o}sito revisar aspectos t\'{e}cnicos
+     y sociales del proyecto, as\'{i} como verificar el estado de los compromisos asumidos por
+     la comunidad para la correcta formulaci\'{o}n del expediente de inversi\'{o}n p\'{u}blica.}%
 
-% Agrega más fotografías según sea necesario usando el comando \panelfoto
+% FOTO 4 | 09/02/2026 (registro general)
+\panelfoto%
+    {9_2_ENCUESTA.jpg}%
+    {Aplicaci\'{o}n de Encuesta Socioecon\'{o}mica --- Comunidad Campesina de Ccasa}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026}%
+    {Registro fotogr\'{a}fico correspondiente a las actividades de levantamiento de informaci\'{o}n
+     socioecon\'{o}mica desarrolladas en la Comunidad Campesina de Ccasa. El proceso de encuestado
+     permiti\'{o} recopilar datos esenciales sobre las condiciones de vida de la poblaci\'{o}n,
+     incluyendo aspectos de vivienda, servicios b\'{a}sicos y din\'{a}mica econ\'{o}mica familiar,
+     constituy\'{e}ndose en insumo fundamental para el diagn\'{o}stico del proyecto de inversi\'{o}n
+     p\'{u}blica en formulaci\'{o}n.}%
 
-\newpage
-\section*{Notas de Uso}
+% FOTO 5 | 09/02/2026 - 08:50 hrs.
+\panelfoto%
+    {9_2_8_50_KKenco_ccasa_equipo_de_trabajo_encargado_de_realizar_las_encuestas_organizandose_antes_de_separarse.jpg}%
+    {Organizaci\'{o}n del Equipo de Trabajo --- Inicio de Jornada de Encuestas}%
+    {Sector Kencco --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 08:50 hrs.}%
+    {El equipo t\'{e}cnico encargado del levantamiento de informaci\'{o}n socioecon\'{o}mica se
+     organiz\'{o} en el sector Kencco de la Comunidad Campesina de Ccasa, previo al inicio de
+     las actividades de campo. En esta instancia se distribuyeron las rutas de trabajo, se
+     asignaron responsabilidades a cada auxiliar y se impartieron las \'{u}ltimas indicaciones
+     metodol\'{o}gicas, garantizando la cobertura sistem\'{a}tica de todas las viviendas
+     contempladas en el proceso de recojo de datos.}%
 
-Para agregar una nueva imagen al panel fotográfico, utiliza el siguiente comando:
+% FOTO 6 | 09/02/2026 - 09:04 hrs.
+\panelfoto%
+    {9_02_9_04_Comunidad_CCASA_primer_encuestado_economista_realizando-demostracin_a_los_auxiliares.jpg}%
+    {Demostraci\'{o}n de Aplicaci\'{o}n de Encuesta --- Primer Encuestado}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 09:04 hrs.}%
+    {El economista a cargo realiz\'{o} la primera encuesta socioecon\'{o}mica de la jornada,
+     sirvi\'{e}ndola como caso demostrativo para los auxiliares del equipo de campo. Dicha acci\'{o}n
+     permiti\'{o} estandarizar la metodolog\'{i}a de aplicaci\'{o}n del instrumento de recojo de
+     informaci\'{o}n, asegurando la coherencia y calidad de los datos obtenidos durante toda la
+     jornada de trabajo en la comunidad.}%
 
-\begin{verbatim}
-\panelfoto{ruta/imagen.jpg}{Nombre Actividad}{Fecha}{Comentario}
-\end{verbatim}
+% FOTO 7 | 09/02/2026 - 09:29 hrs.
+\panelfoto%
+    {9_02_9_29_presidente_de_la_comunidad_de_ccasa_en_el_terreno_donde_se_se_ejecutara_el_proyecto_garantizando_la_deisponibilidad-del_terreno.jpg}%
+    {Verificaci\'{o}n del Terreno Destinado al Proyecto --- Presidente de Ccasa}%
+    {Terreno del Proyecto --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 09:29 hrs.}%
+    {El presidente de la Comunidad Campesina de Ccasa acompa\~{n}\'{o} al equipo t\'{e}cnico al
+     terreno donde se ejecutar\'{a} el proyecto, reafirmando y garantizando formalmente la
+     disponibilidad del \'{a}rea para la intervenci\'{o}n. Dicho acto constituye un elemento
+     fundamental para la viabilidad social y territorial del proyecto, al demostrar el respaldo
+     y compromiso de la m\'{a}xima autoridad comunal con el proceso de formulaci\'{o}n del
+     expediente de inversi\'{o}n p\'{u}blica.}%
 
-\textbf{Parámetros:}
-\begin{itemize}
-    \item \texttt{ruta/imagen.jpg}: Ruta del archivo de imagen
-    \item \texttt{Nombre Actividad}: Descripción breve de la actividad
-    \item \texttt{Fecha}: Fecha en formato DD/MM/AAAA
-    \item \texttt{Comentario}: Observaciones y detalles relevantes
-\end{itemize}
+% FOTO 8 | 09/02/2026 - 09:59 hrs.
+\panelfoto%
+    {9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_agua_habitante_que_sabe_leer_idrigente_completando_encuesta.jpg}%
+    {Aplicaci\'{o}n de Encuesta en Vivienda de Adobe con Acceso a Agua}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 09:59 hrs.}%
+    {Se registra la aplicaci\'{o}n de la encuesta socioecon\'{o}mica en una vivienda de
+     construcci\'{o}n tradicional de adobe con acceso a servicio de agua. El encuestado, dirigente
+     comunal con capacidad lectora, complet\'{o} el cuestionario de manera aut\'{o}noma bajo la
+     supervisi\'{o}n del equipo t\'{e}cnico, aportando informaci\'{o}n precisa sobre las condiciones
+     habitacionales del hogar, datos de especial relevancia para el diagn\'{o}stico socioecon\'{o}mico
+     del proyecto.}%
+
+% FOTO 9 | 09/02/2026 - 10:20 hrs.
+\panelfoto%
+    {9_02_10_20_encuestas_en_el-sector_parte_alta-de_casa_donde-se_consentra_la_menro_cantidad_de-pobladores.jpg}%
+    {Aplicaci\'{o}n de Encuestas en el Sector Parte Alta de Ccasa}%
+    {Sector Parte Alta --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 10:20 hrs.}%
+    {El equipo t\'{e}cnico desarroll\'{o} el levantamiento de informaci\'{o}n en el sector parte alta
+     de la Comunidad Campesina de Ccasa, zona que concentra la menor densidad poblacional del
+     \'{a}mbito de intervenci\'{o}n. La aplicaci\'{o}n de encuestas en este sector permiti\'{o}
+     obtener datos representativos de las condiciones socioecon\'{o}micas de los hogares ubicados
+     en la periferia de la comunidad, asegurando la cobertura total requerida por la metodolog\'{i}a
+     de formulaci\'{o}n del proyecto.}%
+
+% FOTO 10 | 09/02/2026 - 10:24 hrs.
+\panelfoto%
+    {9_02_10_24_vievienda_de_adobe_sin_techo_condicion_de_abandono_pero_con_acceso-a_energia_electrica_vienvienda.jpg}%
+    {Constataci\'{o}n de Vivienda de Adobe sin Techo en Condici\'{o}n de Abandono}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 10:24 hrs.}%
+    {Durante el recorrido de campo se identific\'{o} una vivienda construida con adobe, sin techo
+     y en aparente estado de abandono, aunque con conexi\'{o}n activa a la red de energ\'{i}a
+     el\'{e}ctrica. Esta evidencia refleja la precariedad habitacional que afecta a parte de la
+     poblaci\'{o}n y constituye informaci\'{o}n relevante para el diagn\'{o}stico sobre el
+     d\'{e}ficit de infraestructura y la situaci\'{o}n de vulnerabilidad que sustenta la necesidad
+     del proyecto de inversi\'{o}n p\'{u}blica.}%
+
+% FOTO 11 | 09/02/2026 - 10:24 hrs. (segunda toma)
+\panelfoto%
+    {9_2_10_24_monunidad_ccasa_comunero_alfabetizado_contestando_las_preguntas_del_cuestionario.jpg}%
+    {Aplicaci\'{o}n de Encuesta a Comunero Alfabetizado de Ccasa}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 10:24 hrs.}%
+    {Un comunero con capacidad de lectura y escritura de la Comunidad Campesina de Ccasa respondi\'{o}
+     de manera activa y detallada las preguntas del cuestionario socioecon\'{o}mico. El nivel de
+     comprensi\'{o}n y participaci\'{o}n demostrado facilit\'{o} el recojo de informaci\'{o}n
+     precisa y confiable, contribuyendo significativamente a la solidez del diagn\'{o}stico
+     elaborado por el equipo t\'{e}cnico de formulaci\'{o}n.}%
+
+% FOTO 12 | 09/02/2026 - 10:36 hrs.
+\panelfoto%
+    {9_02_10_36_vivienda_de_material-noble_con-CON-acceso_a_energia_electrica_agua_y_saneamiento_en-el_transcursode_la_elaboracion_de_la_encuesta.jpg}%
+    {Constataci\'{o}n de Vivienda de Material Noble con Servicios B\'{a}sicos}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 10:36 hrs.}%
+    {En el transcurso de la aplicaci\'{o}n de encuestas se verific\'{o} la existencia de una
+     vivienda construida con material noble, dotada de acceso a energ\'{i}a el\'{e}ctrica, agua
+     y saneamiento. Esta constataci\'{o}n evidencia la heterogeneidad de las condiciones
+     habitacionales en la comunidad, mostrando el contraste entre viviendas consolidadas y las
+     que presentan d\'{e}ficit de servicios b\'{a}sicos en el \'{a}mbito de intervenci\'{o}n del
+     proyecto.}%
+
+% FOTO 13 | 09/02/2026 - 10:39 hrs.
+\panelfoto%
+    {9_2_10_39_ENCUESTA.jpg}%
+    {Levantamiento de Informaci\'{o}n Socioecon\'{o}mica --- Encuesta de Campo}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 10:39 hrs.}%
+    {Registro fotogr\'{a}fico de la continuaci\'{o}n del proceso de levantamiento de informaci\'{o}n
+     socioecon\'{o}mica en la Comunidad Campesina de Ccasa. El equipo t\'{e}cnico prosigui\'{o}
+     con la aplicaci\'{o}n sistem\'{a}tica de los cuestionarios, recopilando datos sobre vivienda,
+     servicios b\'{a}sicos, actividad econ\'{o}mica e ingresos familiares como insumos para el
+     diagn\'{o}stico situacional que sustenta el proyecto de inversi\'{o}n p\'{u}blica.}%
+
+% FOTO 14 | 09/02/2026 - 10:42 hrs.
+\panelfoto%
+    {9_02_10_42_CENTRO_DE_SALUD_de_la_comuniidada_campesina_de_ccasa_en_buen_estado_constrataciondelaexustencia_de_la_posta_medica_despues_de_las_encuestas.jpg}%
+    {Constataci\'{o}n de la Infraestructura del Centro de Salud --- Posta M\'{e}dica de Ccasa}%
+    {Centro de Salud (Posta M\'{e}dica) --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 10:42 hrs.}%
+    {Posterior al desarrollo de las encuestas, el equipo t\'{e}cnico const\'{a}t\'{o} la existencia
+     del Centro de Salud de la Comunidad Campesina de Ccasa, el cual se encontraba en buen estado
+     de conservaci\'{o}n. Este establecimiento constituye un equipamiento de salud relevante dentro
+     del diagn\'{o}stico de servicios e infraestructura comunal, proporcionando informaci\'{o}n de
+     contexto para la delimitaci\'{o}n del \'{a}mbito del proyecto de inversi\'{o}n.}%
+
+% FOTO 15 | 09/02/2026 - 10:47 hrs.
+\panelfoto%
+    {9_02_10_47_kkenko_ccasa_la_visualizacion_de_una_vivienda_de_adobe_y_techo_de_calamina_ypuente__elaborado_sin_acceso_a_energia_electrica.jpg}%
+    {Registro de Vivienda de Adobe con Techo de Calamina y Puente Artesanal sin Energ\'{i}a}%
+    {Sector Kencco --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 10:47 hrs.}%
+    {En el sector Kencco se registr\'{o} la presencia de una vivienda construida con adobe y techo
+     de calamina, acompa\~{n}ada de un puente artesanal elaborado por los propios moradores, en
+     ausencia de acceso a la red de energ\'{i}a el\'{e}ctrica. Esta situaci\'{o}n ilustra el
+     d\'{e}ficit de infraestructura b\'{a}sica existente en la comunidad y refuerza la justificaci\'{o}n
+     t\'{e}cnica del proyecto de inversi\'{o}n p\'{u}blica.}%
+
+% FOTO 16 | 09/02/2026 - 10:53 hrs.
+\panelfoto%
+    {9_02_10_53_econommista_alex_alarcon_cabrera_junto_a_la_entrada_del_coelgio_de_ccasa_comprobando_la_existencia_de_una.jpg}%
+    {Verificaci\'{o}n de Infraestructura Educativa --- Colegio de la Comunidad de Ccasa}%
+    {Instituci\'{o}n Educativa --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 10:53 hrs.}%
+    {El economista Alex Alarc\'{o}n Cabrera se desplaz\'{o} hasta la entrada del colegio de la
+     Comunidad Campesina de Ccasa con el fin de verificar la existencia y el estado de la
+     infraestructura educativa. Dicha verificaci\'{o}n forma parte del diagn\'{o}stico de
+     equipamientos comunales que sustenta la formulaci\'{o}n del proyecto, registr\'{a}ndose que
+     la instituci\'{o}n brinda servicios de educaci\'{o}n b\'{a}sica a la poblaci\'{o}n en edad
+     escolar de la comunidad.}%
+
+% FOTO 17 | 09/02/2026 - 10:53 hrs. (segunda toma)
+\panelfoto%
+    {9_02_10_53_segunda_toma_exclusiva_del-colegio_de_ccasa_que_funciona_como_inicial_primaria_y_secundaria.jpg}%
+    {Registro Fotogr\'{a}fico de la Instituci\'{o}n Educativa Multigrado de Ccasa}%
+    {Instituci\'{o}n Educativa --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 10:53 hrs.}%
+    {Segunda toma fotogr\'{a}fica de la Instituci\'{o}n Educativa de la Comunidad Campesina de
+     Ccasa, la cual funciona como establecimiento multigrado atendiendo los niveles de educaci\'{o}n
+     inicial, primaria y secundaria dentro de una misma infraestructura. Este registro documenta el
+     estado del equipamiento educativo existente y su importancia como servicio esencial para la
+     poblaci\'{o}n comunal en el \'{a}mbito del proyecto.}%
+
+% FOTO 18 | 09/02/2026 - 11:08 hrs.
+\panelfoto%
+    {9_02_11_8_SSHH_del_local_improvisado_del_consejo_menor_SSHH_de_la_cancha_sintetica_infraestuctura_con_uso_exclusivo_de_actividades_deprtivas.jpg}%
+    {Constataci\'{o}n de Servicios Higi\'{e}nicos --- Cancha Sint\'{e}tica del Consejo Menor}%
+    {Cancha Sint\'{e}tica --- Local del Consejo Menor, Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 11:08 hrs.}%
+    {Se const\'{a}t\'{o} el estado de los servicios higi\'{e}nicos del local improvisado del Consejo
+     Menor, ubicados en las instalaciones de la cancha sint\'{e}tica de la comunidad. Dicha
+     infraestructura sanitaria tiene un uso exclusivo para actividades deportivas, evidenciando la
+     inexistencia de instalaciones adecuadas para el funcionamiento administrativo y la atenci\'{o}n
+     p\'{u}blica de la organizaci\'{o}n comunal, lo cual constituye uno de los elementos que motivan
+     la necesidad del proyecto de inversi\'{o}n.}%
+
+% FOTO 19 | 09/02/2026 (sin hora exacta)
+\panelfoto%
+    {9_02_consattacion_de_la_existencia_de_casa-_de_material_noble_en_el_tramnscurso_de_realizar_la_encuesta_material_noble_qone_wasi.jpg}%
+    {Constataci\'{o}n de Vivienda de Material Noble --- Qo\~{n}e Wasi}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026}%
+    {Durante el proceso de levantamiento de informaci\'{o}n se const\'{a}t\'{o} la existencia de
+     viviendas construidas con material noble en la Comunidad Campesina de Ccasa, denominadas
+     localmente ``Qo\~{n}e Wasi''. Este tipo de construcciones refleja el avance progresivo en
+     las condiciones habitacionales de algunos comuneros y provee un indicador de contraste respecto
+     a las edificaciones tradicionales de adobe predominantes en la zona, enriqueciendo el
+     diagn\'{o}stico sobre la heterogeneidad socioecon\'{o}mica de la poblaci\'{o}n beneficiaria.}%
+
+% FOTO 20 | 09/02/2026 - 11:26 hrs.
+\panelfoto%
+    {9_2_11_26_ENCUESTA.jpg}%
+    {Aplicaci\'{o}n de Encuesta Socioecon\'{o}mica --- Continuaci\'{o}n de Jornada}%
+    {Comunidad Campesina de Ccasa --- Challhuahuacho}%
+    {09/02/2026 --- 11:26 hrs.}%
+    {Registro correspondiente a la continuaci\'{o}n de las actividades de encuestado en la
+     Comunidad Campesina de Ccasa durante las horas de la ma\~{n}ana. El equipo t\'{e}cnico
+     mantuvo el ritmo de aplicaci\'{o}n sistem\'{a}tica de los cuestionarios, consolidando la
+     base de datos socioecon\'{o}mica necesaria para el an\'{a}lisis de la demanda y la
+     justificaci\'{o}n t\'{e}cnica del proyecto de inversi\'{o}n p\'{u}blica.}%
+
+% FOTO 21 | 09/02/2026 - 11:27 hrs.
+\panelfoto%
+    {9_02_11_27_encuesta_a_comunero_dirigentel_sector_Kencco_kasa_opiniones_con_mas_relevancia_por_parete_de_uno_del_auxiliar_proxima_ing_Nayda_Quispe.jpg}%
+    {Encuesta a Comunero Dirigente --- Sector Kencco de la Comunidad de Ccasa}%
+    {Sector Kencco --- Comunidad Campesina de Ccasa}%
+    {09/02/2026 --- 11:27 hrs.}%
+    {La ingenieria auxiliar Nayda Quispe realiz\'{o} la encuesta a un comunero con rango dirigencial
+     en el sector Kencco de la Comunidad Campesina de Ccasa. Las opiniones expresadas por el
+     encuestado revistieron especial relevancia, al aportar una perspectiva de liderazgo comunitario
+     que enriquece el diagn\'{o}stico participativo del proyecto. La visi\'{o}n del dirigente
+     contribuy\'{o} a identificar las principales problem\'{a}ticas y demandas de servicios
+     prioritarios de la zona de intervenci\'{o}n.}%
+
+% FOTO 22 | 09/02/2026 - 15:16 hrs.
+\panelfoto%
+    {9_2_15_16_cordinacion_con_el_alcalde_del_consejp_menor_en_oficina_de_unidad-formuladora_economista_alex_y_el_ing_jhonfhay_kennedy.jpg}%
+    {Coordinaci\'{o}n con el Alcalde del Consejo Menor --- Unidad Formuladora}%
+    {Oficina de Unidad Formuladora --- Municipalidad Distrital de Challhuahuacho}%
+    {09/02/2026 --- 15:16 hrs.}%
+    {En horas de la tarde, el economista Alex y el ingeniero Jhonfhay Kennedy concurrieron a la
+     Oficina de la Unidad Formuladora para sostener una reuni\'{o}n de coordinaci\'{o}n con el
+     alcalde del Consejo Menor. En dicho encuentro se revisaron los avances del proyecto, se
+     abordaron los compromisos institucionales pendientes y se acordaron las acciones necesarias
+     para garantizar la continuidad del proceso de formulaci\'{o}n del expediente t\'{e}cnico
+     de inversi\'{o}n p\'{u}blica.}%
+
+% FOTO 23 | 19/02/2026 - 09:30 hrs.
+\panelfoto%
+    {19_02_9_30_reunicon_con_el_arquitecto_y_dirigentes_del_consejo_menor_con_economista_observand_en_pantalla_el_estado_del_proyecto.jpg}%
+    {Reuni\'{o}n con el Arquitecto y Dirigentes del Consejo Menor --- Revisi\'{o}n del Proyecto}%
+    {Oficina de Unidad Formuladora --- Municipalidad Distrital de Challhuahuacho}%
+    {19/02/2026 --- 09:30 hrs.}%
+    {Se desarroll\'{o} una reuni\'{o}n de trabajo con el arquitecto asignado al proyecto y los
+     dirigentes del Consejo Menor, con la participaci\'{o}n del economista del equipo formulador.
+     Durante la sesi\'{o}n se proyect\'{o} en pantalla el estado actualizado del expediente,
+     permitiendo a los dirigentes conocer los avances t\'{e}cnicos, validar la informaci\'{o}n
+     recogida y emitir observaciones pertinentes para la mejora del proyecto de inversi\'{o}n
+     p\'{u}blica en su etapa de formulaci\'{o}n.}%
+
+% FOTO 24 | 19/02/2026 - 09:37 hrs.
+\panelfoto%
+    {19_02_9_37_oficina_unidad_formuladora_cordianacion_con_el_ing_ambiental_Paul_VIdal_mamani_vera.jpg}%
+    {Coordinaci\'{o}n con el Ing. Ambiental Paul Vidal Mamani Vera --- Unidad Formuladora}%
+    {Oficina de Unidad Formuladora --- Municipalidad Distrital de Challhuahuacho}%
+    {19/02/2026 --- 09:37 hrs.}%
+    {En la Oficina de la Unidad Formuladora se llev\'{o} a cabo una sesi\'{o}n de coordinaci\'{o}n
+     con el ingeniero ambiental Paul Vidal Mamani Vera. La reuni\'{o}n tuvo como objetivo revisar
+     los aspectos ambientales del proyecto y alinear los criterios t\'{e}cnicos necesarios para el
+     cumplimiento de los requisitos de evaluaci\'{o}n de impacto ambiental, componente indispensable
+     en el proceso de formulaci\'{o}n y aprobaci\'{o}n del expediente en el marco del sistema
+     Invierte.pe.}%
+
+% FOTO 25 | Febrero 2026
+\panelfoto%
+    {oficina_de_unidad_formuladora_cordinacion_con_los_dirigentes_del_consejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg}%
+    {Reuni\'{o}n de Coordinaci\'{o}n con Dirigentes del Consejo Menor de Ccasa}%
+    {Oficina de Unidad Formuladora --- Municipalidad Distrital de Challhuahuacho}%
+    {Febrero 2026}%
+    {En las instalaciones de la Unidad Formuladora se sostuvo una reuni\'{o}n de coordinaci\'{o}n
+     con los dirigentes del Consejo Menor de la Comunidad Campesina de Ccasa, contando con la
+     presencia del arquitecto y el economista del equipo t\'{e}cnico. La reuni\'{o}n permiti\'{o}
+     unificar criterios respecto al avance del proyecto, fortalecer el v\'{i}nculo institucional
+     entre el equipo formulador y las autoridades comunales, y ratificar los compromisos asumidos
+     por la comunidad como condici\'{o}n para la viabilidad del proyecto de inversi\'{o}n p\'{u}blica.}%
 
 \end{document}
