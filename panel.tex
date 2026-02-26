@@ -1,0 +1,90 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+
+% Configuración de márgenes
+\geometry{
+    a4paper,
+    left=2.5cm,
+    right=2.5cm,
+    top=3cm,
+    bottom=3cm
+}
+
+% Configuración de encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Panel Fotográfico}
+\rhead{\today}
+\cfoot{\thepage}
+
+% Comando personalizado para insertar imagen con información
+\newcommand{\panelfoto}[4]{
+    \begin{tcolorbox}[colback=gray!5, colframe=gray!40, width=\textwidth, arc=3mm]
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth, height=8cm, keepaspectratio]{#1}
+        \end{figure}
+        \vspace{-0.5cm}
+        \begin{center}
+            \textbf{Actividad:} #2 \\[0.3cm]
+            \textbf{Fecha:} #3 \\[0.3cm]
+            \textbf{Comentario:} #4
+        \end{center}
+    \end{tcolorbox}
+    \vspace{0.5cm}
+}
+
+% Título del documento
+\title{\Huge\textbf{Panel Fotográfico} \\ \Large Documentación de Actividades}
+\author{JOSETRA44}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\section*{Registro Fotográfico de Actividades}
+
+% Ejemplo de uso de la plantilla
+% Reemplaza los parámetros con tus propios valores:
+% \panelfoto{ruta/imagen.jpg}{Nombre de la actividad}{DD/MM/AAAA}{Descripción o comentario}
+
+\panelfoto{ejemplo1.jpg}{Actividad de ejemplo 1}{26/02/2026}{Este es un comentario de ejemplo para la primera imagen. Aquí se describe lo observado o realizado en la actividad.}
+
+\panelfoto{ejemplo2.jpg}{Actividad de ejemplo 2}{25/02/2026}{Segundo comentario de ejemplo. Se pueden agregar detalles relevantes sobre el contexto de la fotografía.}
+
+\panelfoto{ejemplo3.jpg}{Actividad de ejemplo 3}{24/02/2026}{Tercer comentario. Esta plantilla permite mantener un formato uniforme y profesional en todo el documento.}
+
+% Agrega más fotografías según sea necesario usando el comando \panelfoto
+
+\newpage
+\section*{Notas de Uso}
+
+Para agregar una nueva imagen al panel fotográfico, utiliza el siguiente comando:
+
+\begin{verbatim}
+\panelfoto{ruta/imagen.jpg}{Nombre Actividad}{Fecha}{Comentario}
+\end{verbatim}
+
+\textbf{Parámetros:}
+\begin{itemize}
+    \item \texttt{ruta/imagen.jpg}: Ruta del archivo de imagen
+    \item \texttt{Nombre Actividad}: Descripción breve de la actividad
+    \item \texttt{Fecha}: Fecha en formato DD/MM/AAAA
+    \item \texttt{Comentario}: Observaciones y detalles relevantes
+\end{itemize}
+
+\end{document}
