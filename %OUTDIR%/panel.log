@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.30)  25 FEB 2026 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.30)  3 MAR 2026 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -753,76 +753,96 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedRightParindent=\skip80
 \JustifyingParindent=\skip81
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen276
+\ESO@tempdimb=\dimen277
+)
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen276
+\col@sep=\dimen278
 \ar@mcellbox=\box80
-\extrarowheight=\dimen277
+\extrarowheight=\dimen279
 \NC@list=\toks46
 \extratabsurround=\skip82
 \backup@length=\skip83
 \ar@cellbox=\box81
 )
-\TX@col@width=\dimen278
-\TX@old@table=\dimen279
-\TX@old@col=\dimen280
-\TX@target=\dimen281
-\TX@delta=\dimen282
-\TX@cols=\count320
-\TX@ftn=\toks47
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen280
+\lightrulewidth=\dimen281
+\cmidrulewidth=\dimen282
+\belowrulesep=\dimen283
+\belowbottomsep=\dimen284
+\aboverulesep=\dimen285
+\abovetopsep=\dimen286
+\cmidrulesep=\dimen287
+\cmidrulekern=\dimen288
+\defaultaddspace=\dimen289
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen290
+\@belowrulesep=\dimen291
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen292
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen283
-\ESO@tempdimb=\dimen284
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count324
+\calc@Bcount=\count325
+\calc@Adimen=\dimen293
+\calc@Bdimen=\dimen294
+\calc@Askip=\skip84
+\calc@Bskip=\skip85
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count326
+\calc@Cskip=\skip86
 )
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
+\l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box82
-)
-(C:\Users\USER\OneDrive\Desktop\DIGITALIZACION\CCASSA\ARCHIVOS_PANEL FOTOGRÁFI
-CO\%OUTDIR%\panel.aux
+) (panel.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `panel.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen285
+\scratchcounter=\count328
+\scratchdimen=\dimen295
 \scratchbox=\box83
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen286
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks49
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen296
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks48
 )
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -843,16 +863,16 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(119.50148pt, 654.41348pt, 71.13188pt)
+* v-part:(T,H,B)=(142.26378pt, 617.4248pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=654.41348pt
+* \textheight=617.4248pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-52.35313pt
-* \headheight=85.35826pt
-* \headsep=14.22636pt
+* \topmargin=1.70737pt
+* \headheight=39.83368pt
+* \headsep=28.45274pt
 * \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=35.0pt
@@ -868,14 +888,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count328
-LaTeX Info: Redefining \microtypecontext on input line 97.
-Package microtype Info: Applying patch `item' on input line 97.
-Package microtype Info: Applying patch `toc' on input line 97.
-Package microtype Info: Applying patch `eqnum' on input line 97.
-Package microtype Info: Applying patch `footnote' on input line 97.
-Package microtype Info: Applying patch `verbatim' on input line 97.
-LaTeX Info: Redefining \microtypesetup on input line 97.
+\c@lstlisting=\count334
+LaTeX Info: Redefining \microtypecontext on input line 104.
+Package microtype Info: Applying patch `item' on input line 104.
+Package microtype Info: Applying patch `toc' on input line 104.
+Package microtype Info: Applying patch `eqnum' on input line 104.
+Package microtype Info: Applying patch `footnote' on input line 104.
+Package microtype Info: Applying patch `verbatim' on input line 104.
+LaTeX Info: Redefining \microtypesetup on input line 104.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -892,54 +912,31 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 123.
+(Font)              size <20.74> substituted on input line 122.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 123.
+(Font)              size <20.74> substituted on input line 122.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 135.
+(Font)              size <10.95> substituted on input line 134.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 136.
+(Font)              size <10.95> substituted on input line 135.
 
-<logo_muni.png, id=40, 46.7346pt x 58.2978pt>
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 142.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 142.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 142.
-
-<logo_inviertepe.png, id=42, 112.7412pt x 30.8352pt>
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 142.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-<superior.png, id=43, 598.3956pt x 51.5526pt>
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 142.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-<inferior.png, id=44, 598.3956pt x 64.5612pt>
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 142.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+<fondo.png, id=40, 597.47491pt x 845.02783pt>
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 141.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 [1{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USE
 R/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 
- <./superior.png> <./inferior.png> <./logo_muni.png> <./logo_inviertepe.png>]
+ <./fondo.png (PNG copy)>]
 <IMAGENES/30_1_10_44_en_la_cancha_sintetica_de_la_comunidad_de_esta_al_no_conta
-r_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra_improvisado.jpg, id=61,
+r_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra_improvisado.jpg, id=53,
  1606.0pt x 1204.5pt>
 File: IMAGENES/30_1_10_44_en_la_cancha_sintetica_de_la_comunidad_de_esta_al_no_
 contar_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra_improvisado.jpg Gr
@@ -948,29 +945,54 @@ aphic file (type jpg)
 ontar_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra_improvisado.jpg>
 Package pdftex.def Info: IMAGENES/30_1_10_44_en_la_cancha_sintetica_de_la_comun
 idad_de_esta_al_no_contar_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra
-_improvisado.jpg  used on input line 159.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 159.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 159.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 159.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 159.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+_improvisado.jpg  used on input line 157.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
 
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 157.
+
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 157.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
+(Font)              size <8> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.25> not available
+(Font)              size <5> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 157.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 157.
+
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 157.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 [1 <./IMAGENES/30_1_10_44_en_la_cancha_sintetica_de_la_comunidad_de_esta_al_no_
 contar_con_un_local_exclusivo_la_reunion_se_hizo_en_un_lugra_improvisado.jpg>]
 <IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_presidente
-_de_la_comunidad_con_el_economista_alarcon_cabrera_alex.jpg, id=67, 1606.0pt x 
+_de_la_comunidad_con_el_economista_alarcon_cabrera_alex.jpg, id=59, 1606.0pt x 
 1204.5pt>
 File: IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_presi
 dente_de_la_comunidad_con_el_economista_alarcon_cabrera_alex.jpg Graphic file (
@@ -979,24 +1001,12 @@ type jpg)
 ente_de_la_comunidad_con_el_economista_alarcon_cabrera_alex.jpg>
 Package pdftex.def Info: IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordi
 nacion_con_el_presidente_de_la_comunidad_con_el_economista_alarcon_cabrera_alex
-.jpg  used on input line 172.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 172.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 172.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 172.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 172.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+.jpg  used on input line 170.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 170.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 
 [2
 
@@ -1004,7 +1014,7 @@ Package pdftex.def Info: inferior.png  used on input line 172.
 nte_de_la_comunidad_con_el_economista_alarcon_cabrera_alex.jpg>]
 <IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_presidente
 _de_la_comunidad_de_ccasa_Wilfredo_asto_con_el_economista_alarcon_cabrera_alex.
-jpg, id=71, 1606.0pt x 1204.5pt>
+jpg, id=63, 1606.0pt x 1204.5pt>
 File: IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_presi
 dente_de_la_comunidad_de_ccasa_Wilfredo_asto_con_el_economista_alarcon_cabrera_
 alex.jpg Graphic file (type jpg)
@@ -1013,115 +1023,67 @@ ente_de_la_comunidad_de_ccasa_Wilfredo_asto_con_el_economista_alarcon_cabrera_a
 lex.jpg>
 Package pdftex.def Info: IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordi
 nacion_con_el_presidente_de_la_comunidad_de_ccasa_Wilfredo_asto_con_el_economis
-ta_alarcon_cabrera_alex.jpg  used on input line 184.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 184.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 184.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 184.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 184.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ta_alarcon_cabrera_alex.jpg  used on input line 181.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 181.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [3
 
  <./IMAGENES/3_2_11_29_oficina_de_unidad_formuladora_cordinacion_con_el_preside
 nte_de_la_comunidad_de_ccasa_Wilfredo_asto_con_el_economista_alarcon_cabrera_al
 ex.jpg>]
-<IMAGENES/9_2_ENCUESTA.jpg, id=75, 1204.5pt x 1606.0pt>
+<IMAGENES/9_2_ENCUESTA.jpg, id=67, 1204.5pt x 1606.0pt>
 File: IMAGENES/9_2_ENCUESTA.jpg Graphic file (type jpg)
 <use IMAGENES/9_2_ENCUESTA.jpg>
-Package pdftex.def Info: IMAGENES/9_2_ENCUESTA.jpg  used on input line 197.
-(pdftex.def)             Requested size: 256.07692pt x 341.4359pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 197.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 197.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 197.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 197.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+Package pdftex.def Info: IMAGENES/9_2_ENCUESTA.jpg  used on input line 193.
+(pdftex.def)             Requested size: 234.73871pt x 312.98495pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 193.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 
 [4
 
  <./IMAGENES/9_2_ENCUESTA.jpg>]
 <IMAGENES/9_2_8_50_KKenco_ccasa_equipo_de_trabajo_encargado_de_realizar_las_enc
-uestas_organizandose_antes_de_separarse.jpg, id=79, 1606.0pt x 1204.5pt>
+uestas_organizandose_antes_de_separarse.jpg, id=71, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_2_8_50_KKenco_ccasa_equipo_de_trabajo_encargado_de_realizar_la
 s_encuestas_organizandose_antes_de_separarse.jpg Graphic file (type jpg)
 <use IMAGENES/9_2_8_50_KKenco_ccasa_equipo_de_trabajo_encargado_de_realizar_las
 _encuestas_organizandose_antes_de_separarse.jpg>
 Package pdftex.def Info: IMAGENES/9_2_8_50_KKenco_ccasa_equipo_de_trabajo_encar
 gado_de_realizar_las_encuestas_organizandose_antes_de_separarse.jpg  used on in
-put line 210.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 210.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 210.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 210.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 210.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+put line 205.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 205.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [5
 
  <./IMAGENES/9_2_8_50_KKenco_ccasa_equipo_de_trabajo_encargado_de_realizar_las_
 encuestas_organizandose_antes_de_separarse.jpg>]
 <IMAGENES/9_02_9_04_Comunidad_CCASA_primer_encuestado_economista_realizando-dem
-ostracin_a_los_auxiliares.jpg, id=83, 1606.0pt x 1204.5pt>
+ostracin_a_los_auxiliares.jpg, id=75, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_02_9_04_Comunidad_CCASA_primer_encuestado_economista_realizand
 o-demostracin_a_los_auxiliares.jpg Graphic file (type jpg)
 <use IMAGENES/9_02_9_04_Comunidad_CCASA_primer_encuestado_economista_realizando
 -demostracin_a_los_auxiliares.jpg>
 Package pdftex.def Info: IMAGENES/9_02_9_04_Comunidad_CCASA_primer_encuestado_e
-conomista_realizando-demostracin_a_los_auxiliares.jpg  used on input line 222.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 222.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 222.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 222.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 222.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+conomista_realizando-demostracin_a_los_auxiliares.jpg  used on input line 217.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 217.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [6
 
  <./IMAGENES/9_02_9_04_Comunidad_CCASA_primer_encuestado_economista_realizando-
 demostracin_a_los_auxiliares.jpg>]
 <IMAGENES/9_02_9_29_presidente_de_la_comunidad_de_ccasa_en_el_terreno_donde_se_
-se_ejecutara_el_proyecto_garantizando_la_deisponibilidad-del_terreno.jpg, id=88
+se_ejecutara_el_proyecto_garantizando_la_deisponibilidad-del_terreno.jpg, id=80
 , 1284.8pt x 963.6pt>
 File: IMAGENES/9_02_9_29_presidente_de_la_comunidad_de_ccasa_en_el_terreno_dond
 e_se_se_ejecutara_el_proyecto_garantizando_la_deisponibilidad-del_terreno.jpg G
@@ -1130,150 +1092,90 @@ raphic file (type jpg)
 _se_se_ejecutara_el_proyecto_garantizando_la_deisponibilidad-del_terreno.jpg>
 Package pdftex.def Info: IMAGENES/9_02_9_29_presidente_de_la_comunidad_de_ccasa
 _en_el_terreno_donde_se_se_ejecutara_el_proyecto_garantizando_la_deisponibilida
-d-del_terreno.jpg  used on input line 235.
-(pdftex.def)             Requested size: 455.2348pt x 341.4261pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 235.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 235.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 235.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 235.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+d-del_terreno.jpg  used on input line 229.
+(pdftex.def)             Requested size: 417.3002pt x 312.97514pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 229.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [7
 
  <./IMAGENES/9_02_9_29_presidente_de_la_comunidad_de_ccasa_en_el_terreno_donde_
 se_se_ejecutara_el_proyecto_garantizando_la_deisponibilidad-del_terreno.jpg>]
 <IMAGENES/9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_agua_habitante_que_sabe_l
-eer_idrigente_completando_encuesta.jpg, id=92, 1204.5pt x 1606.0pt>
+eer_idrigente_completando_encuesta.jpg, id=84, 1204.5pt x 1606.0pt>
 File: IMAGENES/9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_agua_habitante_que_s
 abe_leer_idrigente_completando_encuesta.jpg Graphic file (type jpg)
 <use IMAGENES/9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_agua_habitante_que_sa
 be_leer_idrigente_completando_encuesta.jpg>
 Package pdftex.def Info: IMAGENES/9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_a
 gua_habitante_que_sabe_leer_idrigente_completando_encuesta.jpg  used on input l
-ine 248.
-(pdftex.def)             Requested size: 256.07692pt x 341.4359pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 248.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 248.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 248.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 248.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ine 242.
+(pdftex.def)             Requested size: 234.73871pt x 312.98495pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 242.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [8
 
  <./IMAGENES/9_2_9_59_ENCUESTA_CASA_DE_adobe_servicio_de_agua_habitante_que_sab
 e_leer_idrigente_completando_encuesta.jpg>]
 <IMAGENES/9_02_10_20_encuestas_en_el-sector_parte_alta-de_casa_donde-se_consent
-ra_la_menro_cantidad_de-pobladores.jpg, id=96, 1606.0pt x 1204.5pt>
+ra_la_menro_cantidad_de-pobladores.jpg, id=88, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_02_10_20_encuestas_en_el-sector_parte_alta-de_casa_donde-se_co
 nsentra_la_menro_cantidad_de-pobladores.jpg Graphic file (type jpg)
 <use IMAGENES/9_02_10_20_encuestas_en_el-sector_parte_alta-de_casa_donde-se_con
 sentra_la_menro_cantidad_de-pobladores.jpg>
 Package pdftex.def Info: IMAGENES/9_02_10_20_encuestas_en_el-sector_parte_alta-
 de_casa_donde-se_consentra_la_menro_cantidad_de-pobladores.jpg  used on input l
-ine 261.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 261.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 261.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 261.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 261.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ine 254.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 254.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [9
 
  <./IMAGENES/9_02_10_20_encuestas_en_el-sector_parte_alta-de_casa_donde-se_cons
 entra_la_menro_cantidad_de-pobladores.jpg>]
 <IMAGENES/9_02_10_24_vievienda_de_adobe_sin_techo_condicion_de_abandono_pero_co
-n_acceso-a_energia_electrica_vienvienda.jpg, id=100, 1204.5pt x 1606.0pt>
+n_acceso-a_energia_electrica_vienvienda.jpg, id=92, 1204.5pt x 1606.0pt>
 File: IMAGENES/9_02_10_24_vievienda_de_adobe_sin_techo_condicion_de_abandono_pe
 ro_con_acceso-a_energia_electrica_vienvienda.jpg Graphic file (type jpg)
 <use IMAGENES/9_02_10_24_vievienda_de_adobe_sin_techo_condicion_de_abandono_per
 o_con_acceso-a_energia_electrica_vienvienda.jpg>
 Package pdftex.def Info: IMAGENES/9_02_10_24_vievienda_de_adobe_sin_techo_condi
 cion_de_abandono_pero_con_acceso-a_energia_electrica_vienvienda.jpg  used on in
-put line 274.
-(pdftex.def)             Requested size: 256.07692pt x 341.4359pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 274.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 274.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 274.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 274.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+put line 266.
+(pdftex.def)             Requested size: 234.73871pt x 312.98495pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 266.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [10
 
  <./IMAGENES/9_02_10_24_vievienda_de_adobe_sin_techo_condicion_de_abandono_pero
 _con_acceso-a_energia_electrica_vienvienda.jpg>]
 <IMAGENES/9_2_10_24_monunidad_ccasa_comunero_alfabetizado_contestando_las_pregu
-ntas_del_cuestionario.jpg, id=104, 1606.0pt x 1204.5pt>
+ntas_del_cuestionario.jpg, id=96, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_2_10_24_monunidad_ccasa_comunero_alfabetizado_contestando_las_
 preguntas_del_cuestionario.jpg Graphic file (type jpg)
 <use IMAGENES/9_2_10_24_monunidad_ccasa_comunero_alfabetizado_contestando_las_p
 reguntas_del_cuestionario.jpg>
 Package pdftex.def Info: IMAGENES/9_2_10_24_monunidad_ccasa_comunero_alfabetiza
-do_contestando_las_preguntas_del_cuestionario.jpg  used on input line 286.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 286.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 286.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 286.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 286.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+do_contestando_las_preguntas_del_cuestionario.jpg  used on input line 278.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 278.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [11
 
  <./IMAGENES/9_2_10_24_monunidad_ccasa_comunero_alfabetizado_contestando_las_pr
 eguntas_del_cuestionario.jpg>]
 <IMAGENES/9_02_10_36_vivienda_de_material-noble_con-CON-acceso_a_energia_electr
 ica_agua_y_saneamiento_en-el_transcursode_la_elaboracion_de_la_encuesta.jpg, id
-=108, 1606.0pt x 1204.5pt>
+=100, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_02_10_36_vivienda_de_material-noble_con-CON-acceso_a_energia_e
 lectrica_agua_y_saneamiento_en-el_transcursode_la_elaboracion_de_la_encuesta.jp
 g Graphic file (type jpg)
@@ -1282,57 +1184,33 @@ ectrica_agua_y_saneamiento_en-el_transcursode_la_elaboracion_de_la_encuesta.jpg
 >
 Package pdftex.def Info: IMAGENES/9_02_10_36_vivienda_de_material-noble_con-CON
 -acceso_a_energia_electrica_agua_y_saneamiento_en-el_transcursode_la_elaboracio
-n_de_la_encuesta.jpg  used on input line 299.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 299.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 299.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 299.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 299.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+n_de_la_encuesta.jpg  used on input line 290.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 290.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [12
 
  <./IMAGENES/9_02_10_36_vivienda_de_material-noble_con-CON-acceso_a_energia_ele
 ctrica_agua_y_saneamiento_en-el_transcursode_la_elaboracion_de_la_encuesta.jpg>
 ]
-<IMAGENES/9_2_10_39_ENCUESTA.jpg, id=113, 1606.0pt x 1204.5pt>
+<IMAGENES/9_2_10_39_ENCUESTA.jpg, id=105, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_2_10_39_ENCUESTA.jpg Graphic file (type jpg)
 <use IMAGENES/9_2_10_39_ENCUESTA.jpg>
-Package pdftex.def Info: IMAGENES/9_2_10_39_ENCUESTA.jpg  used on input line 31
-1.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 311.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 311.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 311.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 311.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+Package pdftex.def Info: IMAGENES/9_2_10_39_ENCUESTA.jpg  used on input line 30
+2.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 302.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [13
 
  <./IMAGENES/9_2_10_39_ENCUESTA.jpg>]
 <IMAGENES/9_02_10_42_CENTRO_DE_SALUD_de_la_comuniidada_campesina_de_ccasa_en_bu
 en_estado_constrataciondelaexustencia_de_la_posta_medica_despues_de_las_encuest
-as.jpg, id=117, 1606.0pt x 1204.5pt>
+as.jpg, id=109, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_02_10_42_CENTRO_DE_SALUD_de_la_comuniidada_campesina_de_ccasa_
 en_buen_estado_constrataciondelaexustencia_de_la_posta_medica_despues_de_las_en
 cuestas.jpg Graphic file (type jpg)
@@ -1341,31 +1219,19 @@ n_buen_estado_constrataciondelaexustencia_de_la_posta_medica_despues_de_las_enc
 uestas.jpg>
 Package pdftex.def Info: IMAGENES/9_02_10_42_CENTRO_DE_SALUD_de_la_comuniidada_
 campesina_de_ccasa_en_buen_estado_constrataciondelaexustencia_de_la_posta_medic
-a_despues_de_las_encuestas.jpg  used on input line 323.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 323.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 323.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 323.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 323.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+a_despues_de_las_encuestas.jpg  used on input line 315.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 315.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [14
 
  <./IMAGENES/9_02_10_42_CENTRO_DE_SALUD_de_la_comuniidada_campesina_de_ccasa_en
 _buen_estado_constrataciondelaexustencia_de_la_posta_medica_despues_de_las_encu
 estas.jpg>]
 <IMAGENES/9_02_10_47_kkenko_ccasa_la_visualizacion_de_una_vivienda_de_adobe_y_t
-echo_de_calamina_ypuente__elaborado_sin_acceso_a_energia_electrica.jpg, id=121,
+echo_de_calamina_ypuente__elaborado_sin_acceso_a_energia_electrica.jpg, id=113,
  1606.0pt x 1204.5pt>
 File: IMAGENES/9_02_10_47_kkenko_ccasa_la_visualizacion_de_una_vivienda_de_adob
 e_y_techo_de_calamina_ypuente__elaborado_sin_acceso_a_energia_electrica.jpg Gra
@@ -1374,30 +1240,18 @@ phic file (type jpg)
 _y_techo_de_calamina_ypuente__elaborado_sin_acceso_a_energia_electrica.jpg>
 Package pdftex.def Info: IMAGENES/9_02_10_47_kkenko_ccasa_la_visualizacion_de_u
 na_vivienda_de_adobe_y_techo_de_calamina_ypuente__elaborado_sin_acceso_a_energi
-a_electrica.jpg  used on input line 335.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 335.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 335.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 335.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 335.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+a_electrica.jpg  used on input line 327.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 327.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [15
 
  <./IMAGENES/9_02_10_47_kkenko_ccasa_la_visualizacion_de_una_vivienda_de_adobe_
 y_techo_de_calamina_ypuente__elaborado_sin_acceso_a_energia_electrica.jpg>]
 <IMAGENES/9_02_10_53_econommista_alex_alarcon_cabrera_junto_a_la_entrada_del_co
-elgio_de_ccasa_comprobando_la_existencia_de_una.jpg, id=125, 1606.0pt x 1204.5p
+elgio_de_ccasa_comprobando_la_existencia_de_una.jpg, id=117, 1606.0pt x 1204.5p
 t>
 File: IMAGENES/9_02_10_53_econommista_alex_alarcon_cabrera_junto_a_la_entrada_d
 el_coelgio_de_ccasa_comprobando_la_existencia_de_una.jpg Graphic file (type jpg
@@ -1406,61 +1260,37 @@ el_coelgio_de_ccasa_comprobando_la_existencia_de_una.jpg Graphic file (type jpg
 l_coelgio_de_ccasa_comprobando_la_existencia_de_una.jpg>
 Package pdftex.def Info: IMAGENES/9_02_10_53_econommista_alex_alarcon_cabrera_j
 unto_a_la_entrada_del_coelgio_de_ccasa_comprobando_la_existencia_de_una.jpg  us
-ed on input line 348.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 348.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 348.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 348.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 348.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ed on input line 339.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 339.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [16
 
  <./IMAGENES/9_02_10_53_econommista_alex_alarcon_cabrera_junto_a_la_entrada_del
 _coelgio_de_ccasa_comprobando_la_existencia_de_una.jpg>]
 <IMAGENES/9_02_10_53_segunda_toma_exclusiva_del-colegio_de_ccasa_que_funciona_c
-omo_inicial_primaria_y_secundaria.jpg, id=129, 1204.5pt x 1606.0pt>
+omo_inicial_primaria_y_secundaria.jpg, id=121, 1204.5pt x 1606.0pt>
 File: IMAGENES/9_02_10_53_segunda_toma_exclusiva_del-colegio_de_ccasa_que_funci
 ona_como_inicial_primaria_y_secundaria.jpg Graphic file (type jpg)
 <use IMAGENES/9_02_10_53_segunda_toma_exclusiva_del-colegio_de_ccasa_que_funcio
 na_como_inicial_primaria_y_secundaria.jpg>
 Package pdftex.def Info: IMAGENES/9_02_10_53_segunda_toma_exclusiva_del-colegio
 _de_ccasa_que_funciona_como_inicial_primaria_y_secundaria.jpg  used on input li
-ne 360.
-(pdftex.def)             Requested size: 256.07692pt x 341.4359pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 360.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 360.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 360.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 360.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ne 352.
+(pdftex.def)             Requested size: 234.73871pt x 312.98495pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 352.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [17
 
  <./IMAGENES/9_02_10_53_segunda_toma_exclusiva_del-colegio_de_ccasa_que_funcion
 a_como_inicial_primaria_y_secundaria.jpg>]
 <IMAGENES/9_02_11_8_SSHH_del_local_improvisado_del_consejo_menor_SSHH_de_la_can
 cha_sintetica_infraestuctura_con_uso_exclusivo_de_actividades_deprtivas.jpg, id
-=133, 1606.0pt x 1204.5pt>
+=125, 1606.0pt x 1204.5pt>
 File: IMAGENES/9_02_11_8_SSHH_del_local_improvisado_del_consejo_menor_SSHH_de_l
 a_cancha_sintetica_infraestuctura_con_uso_exclusivo_de_actividades_deprtivas.jp
 g Graphic file (type jpg)
@@ -1469,24 +1299,12 @@ _cancha_sintetica_infraestuctura_con_uso_exclusivo_de_actividades_deprtivas.jpg
 >
 Package pdftex.def Info: IMAGENES/9_02_11_8_SSHH_del_local_improvisado_del_cons
 ejo_menor_SSHH_de_la_cancha_sintetica_infraestuctura_con_uso_exclusivo_de_activ
-idades_deprtivas.jpg  used on input line 373.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 373.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 373.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 373.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 373.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+idades_deprtivas.jpg  used on input line 365.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 365.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 
 [18
 
@@ -1494,7 +1312,7 @@ Package pdftex.def Info: inferior.png  used on input line 373.
 cancha_sintetica_infraestuctura_con_uso_exclusivo_de_actividades_deprtivas.jpg>
 ]
 <IMAGENES/9_02_consattacion_de_la_existencia_de_casa-_de_material_noble_en_el_t
-ramnscurso_de_realizar_la_encuesta_material_noble_qone_wasi.jpg, id=138, 1606.0
+ramnscurso_de_realizar_la_encuesta_material_noble_qone_wasi.jpg, id=130, 1606.0
 pt x 1204.5pt>
 File: IMAGENES/9_02_consattacion_de_la_existencia_de_casa-_de_material_noble_en
 _el_tramnscurso_de_realizar_la_encuesta_material_noble_qone_wasi.jpg Graphic fi
@@ -1503,57 +1321,33 @@ le (type jpg)
 el_tramnscurso_de_realizar_la_encuesta_material_noble_qone_wasi.jpg>
 Package pdftex.def Info: IMAGENES/9_02_consattacion_de_la_existencia_de_casa-_d
 e_material_noble_en_el_tramnscurso_de_realizar_la_encuesta_material_noble_qone_
-wasi.jpg  used on input line 386.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 386.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 386.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 386.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 386.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+wasi.jpg  used on input line 379.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 379.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [19
 
  <./IMAGENES/9_02_consattacion_de_la_existencia_de_casa-_de_material_noble_en_e
 l_tramnscurso_de_realizar_la_encuesta_material_noble_qone_wasi.jpg>]
-<IMAGENES/9_2_11_26_ENCUESTA.jpg, id=142, 1204.5pt x 1606.0pt>
+<IMAGENES/9_2_11_26_ENCUESTA.jpg, id=134, 1204.5pt x 1606.0pt>
 File: IMAGENES/9_2_11_26_ENCUESTA.jpg Graphic file (type jpg)
 <use IMAGENES/9_2_11_26_ENCUESTA.jpg>
 Package pdftex.def Info: IMAGENES/9_2_11_26_ENCUESTA.jpg  used on input line 39
-8.
-(pdftex.def)             Requested size: 256.07692pt x 341.4359pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 398.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 398.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 398.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 398.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+1.
+(pdftex.def)             Requested size: 234.73871pt x 312.98495pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 391.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 
 [20
 
  <./IMAGENES/9_2_11_26_ENCUESTA.jpg>]
 <IMAGENES/9_02_11_27_encuesta_a_comunero_dirigentel_sector_Kencco_kasa_opinione
 s_con_mas_relevancia_por_parete_de_uno_del_auxiliar_proxima_ing_Nayda_Quispe.jp
-g, id=146, 1606.0pt x 1202.4925pt>
+g, id=138, 1606.0pt x 1202.4925pt>
 File: IMAGENES/9_02_11_27_encuesta_a_comunero_dirigentel_sector_Kencco_kasa_opi
 niones_con_mas_relevancia_por_parete_de_uno_del_auxiliar_proxima_ing_Nayda_Quis
 pe.jpg Graphic file (type jpg)
@@ -1562,31 +1356,19 @@ iones_con_mas_relevancia_por_parete_de_uno_del_auxiliar_proxima_ing_Nayda_Quisp
 e.jpg>
 Package pdftex.def Info: IMAGENES/9_02_11_27_encuesta_a_comunero_dirigentel_sec
 tor_Kencco_kasa_opiniones_con_mas_relevancia_por_parete_de_uno_del_auxiliar_pro
-xima_ing_Nayda_Quispe.jpg  used on input line 411.
-(pdftex.def)             Requested size: 455.99937pt x 341.42952pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 411.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 411.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 411.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 411.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+xima_ing_Nayda_Quispe.jpg  used on input line 404.
+(pdftex.def)             Requested size: 417.99126pt x 312.97095pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 404.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [21
 
  <./IMAGENES/9_02_11_27_encuesta_a_comunero_dirigentel_sector_Kencco_kasa_opini
 ones_con_mas_relevancia_por_parete_de_uno_del_auxiliar_proxima_ing_Nayda_Quispe
 .jpg>]
 <IMAGENES/9_2_15_16_cordinacion_con_el_alcalde_del_consejp_menor_en_oficina_de_
-unidad-formuladora_economista_alex_y_el_ing_jhonfhay_kennedy.jpg, id=150, 1606.
+unidad-formuladora_economista_alex_y_el_ing_jhonfhay_kennedy.jpg, id=142, 1606.
 0pt x 1204.5pt>
 File: IMAGENES/9_2_15_16_cordinacion_con_el_alcalde_del_consejp_menor_en_oficin
 a_de_unidad-formuladora_economista_alex_y_el_ing_jhonfhay_kennedy.jpg Graphic f
@@ -1595,30 +1377,18 @@ ile (type jpg)
 _de_unidad-formuladora_economista_alex_y_el_ing_jhonfhay_kennedy.jpg>
 Package pdftex.def Info: IMAGENES/9_2_15_16_cordinacion_con_el_alcalde_del_cons
 ejp_menor_en_oficina_de_unidad-formuladora_economista_alex_y_el_ing_jhonfhay_ke
-nnedy.jpg  used on input line 424.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 424.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 424.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 424.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 424.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+nnedy.jpg  used on input line 417.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 417.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [22
 
  <./IMAGENES/9_2_15_16_cordinacion_con_el_alcalde_del_consejp_menor_en_oficina_
 de_unidad-formuladora_economista_alex_y_el_ing_jhonfhay_kennedy.jpg>]
 <IMAGENES/19_02_9_30_reunicon_con_el_arquitecto_y_dirigentes_del_consejo_menor_
-con_economista_observand_en_pantalla_el_estado_del_proyecto.jpg, id=154, 1606.0
+con_economista_observand_en_pantalla_el_estado_del_proyecto.jpg, id=146, 1606.0
 pt x 1204.5pt>
 File: IMAGENES/19_02_9_30_reunicon_con_el_arquitecto_y_dirigentes_del_consejo_m
 enor_con_economista_observand_en_pantalla_el_estado_del_proyecto.jpg Graphic fi
@@ -1627,59 +1397,35 @@ le (type jpg)
 nor_con_economista_observand_en_pantalla_el_estado_del_proyecto.jpg>
 Package pdftex.def Info: IMAGENES/19_02_9_30_reunicon_con_el_arquitecto_y_dirig
 entes_del_consejo_menor_con_economista_observand_en_pantalla_el_estado_del_proy
-ecto.jpg  used on input line 437.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 437.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 437.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 437.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 437.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ecto.jpg  used on input line 429.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 429.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [23
 
  <./IMAGENES/19_02_9_30_reunicon_con_el_arquitecto_y_dirigentes_del_consejo_men
 or_con_economista_observand_en_pantalla_el_estado_del_proyecto.jpg>]
 <IMAGENES/19_02_9_37_oficina_unidad_formuladora_cordianacion_con_el_ing_ambient
-al_Paul_VIdal_mamani_vera.jpg, id=158, 1606.0pt x 1204.5pt>
+al_Paul_VIdal_mamani_vera.jpg, id=150, 1606.0pt x 1204.5pt>
 File: IMAGENES/19_02_9_37_oficina_unidad_formuladora_cordianacion_con_el_ing_am
 biental_Paul_VIdal_mamani_vera.jpg Graphic file (type jpg)
 <use IMAGENES/19_02_9_37_oficina_unidad_formuladora_cordianacion_con_el_ing_amb
 iental_Paul_VIdal_mamani_vera.jpg>
 Package pdftex.def Info: IMAGENES/19_02_9_37_oficina_unidad_formuladora_cordian
-acion_con_el_ing_ambiental_Paul_VIdal_mamani_vera.jpg  used on input line 450.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 450.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 450.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 450.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 450.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+acion_con_el_ing_ambiental_Paul_VIdal_mamani_vera.jpg  used on input line 442.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 442.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
  [24
 
  <./IMAGENES/19_02_9_37_oficina_unidad_formuladora_cordianacion_con_el_ing_ambi
 ental_Paul_VIdal_mamani_vera.jpg>]
 <IMAGENES/oficina_de_unidad_formuladora_cordinacion_con_los_dirigentes_del_cons
-ejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg, id=163, 1606.0pt x 1204.5p
+ejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg, id=155, 1606.0pt x 1204.5p
 t>
 File: IMAGENES/oficina_de_unidad_formuladora_cordinacion_con_los_dirigentes_del
 _consejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg Graphic file (type jpg
@@ -1688,31 +1434,17 @@ _consejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg Graphic file (type jpg
 consejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg>
 Package pdftex.def Info: IMAGENES/oficina_de_unidad_formuladora_cordinacion_con
 _los_dirigentes_del_consejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg  us
-ed on input line 463.
-(pdftex.def)             Requested size: 455.2397pt x 341.42978pt.
-File: logo_muni.png Graphic file (type png)
-<use logo_muni.png>
-Package pdftex.def Info: logo_muni.png  used on input line 463.
-(pdftex.def)             Requested size: 47.8997pt x 59.75117pt.
-File: logo_inviertepe.png Graphic file (type png)
-<use logo_inviertepe.png>
-Package pdftex.def Info: logo_inviertepe.png  used on input line 463.
-(pdftex.def)             Requested size: 71.1357pt x 19.4559pt.
-File: superior.png Graphic file (type png)
-<use superior.png>
-Package pdftex.def Info: superior.png  used on input line 463.
-(pdftex.def)             Requested size: 597.50787pt x 51.47772pt.
-File: inferior.png Graphic file (type png)
-<use inferior.png>
-Package pdftex.def Info: inferior.png  used on input line 463.
-(pdftex.def)             Requested size: 597.50787pt x 64.46744pt.
+ed on input line 455.
+(pdftex.def)             Requested size: 417.3051pt x 312.97882pt.
+File: fondo.png Graphic file (type png)
+<use fondo.png>
+Package pdftex.def Info: fondo.png  used on input line 455.
+(pdftex.def)             Requested size: 597.53726pt x 845.06445pt.
 
 [25
 
  <./IMAGENES/oficina_de_unidad_formuladora_cordinacion_con_los_dirigentes_del_c
-onsejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg>]
-(C:\Users\USER\OneDrive\Desktop\DIGITALIZACION\CCASSA\ARCHIVOS_PANEL FOTOGRÁFI
-CO\%OUTDIR%\panel.aux
+onsejo_menor_deccasa_con_el_arqitecto_yeconomiista.jpg>] (panel.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -1727,28 +1459,28 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 24990 strings out of 474479
- 552594 string characters out of 5744062
+ 25041 strings out of 474479
+ 553343 string characters out of 5744062
  1931542 words of memory out of 5000000
- 46766 multiletter control sequences out of 15000+600000
- 574490 words of font info for 118 fonts, out of 8000000 for 9000
+ 46825 multiletter control sequences out of 15000+600000
+ 575794 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,15n,99p,1004b,1000s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,13n,99p,1004b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx
-0500.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
-er/sfbx0900.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public
+0700.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
+er/sfbx0800.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /cm-super/sfbx1000.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/cm-super/sfbx1095.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/font
 s/type1/public/cm-super/sfbx2074.pfb><C:/Users/USER/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/USER/AppData/Local/Progra
+eX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/USER/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/USER/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/USER/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/USER
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti0900.pfb>
 Output written on "C:\Users\USER\OneDrive\Desktop\DIGITALIZACION\CCASSA\ARCHIVO
-S_PANEL FOTOGRÁFICO\%OUTDIR%\panel.pdf" (26 pages, 8301185 bytes).
+S_PANEL FOTOGRÁFICO\%OUTDIR%\panel.pdf" (26 pages, 10128890 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
+ 202 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31022 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 39199 words of extra memory for PDF output out of 42996 (max. 10000000)
 
